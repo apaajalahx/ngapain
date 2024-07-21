@@ -39,4 +39,4 @@ if __name__ == '__main__':
         set_creation_file(full_path, creation_time=created)
         print("Done.")
     else:
-        print("Usage: {} filename.jpg".format(sys.argv[0]))
+        print("Usage: python {} filename.jpg".format(sys.argv[0]))
